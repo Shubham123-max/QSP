@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+/* main{
+    display: flex;
+    border: 2px solid ;
+    height: 100px;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+   
+ 
+    
+    
+} */
+
+/* //? min-width is means it will take min 50 of width of container , it will not adjust itself , if its not fitting in container it  will go out of it , so we can use flex wrap to wrap them in container , then the element goes to new line and take width */
+
+/* div{
+    background: red;
+     min-width:50%;
+}
+span{
+    background: green;
+     min-width:50%;
+}
+section{
+    background: brown;
+     min-width:50%;
+} */
+
+
+main{
+    background: grey;
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    color: blue;
+    text-align: center;
+    
+}
+
+.div1{
+    border: 2px solid yellow;
+    height: 60%;
+    width: 20%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  
+}
+
+.div2{
+    border: 2px solid yellow;
+    height: 20%;
+     width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
