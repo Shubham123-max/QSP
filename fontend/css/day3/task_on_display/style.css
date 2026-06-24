@@ -1,0 +1,426 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* //!Task 1: Simple Navigation Bar */
+/* 
+nav{
+    height: 10vh;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    height:60px;
+    width:100px;
+}
+
+.nav1{
+     display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.nav2{
+    display: flex;
+    justify-content: space-between;
+   
+    width: 50%;
+} */
+
+
+
+/* //! Task 2: Employee ID Card */
+
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 80vh;
+    border: 1px solid;
+}
+
+.card{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    width: 100%;
+    gap: 50px;
+}
+.profile{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius:50%;
+    background: rgb(250, 188, 250);
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+} */
+
+
+
+
+/* //! Task 3: Social Media Row */
+/* main{
+    height: 100vh;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+
+}
+.social_media{
+    height: 50vh;
+    width: 18vw;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.facebook{
+    background: rgb(74, 124, 239);
+    color: white;
+}
+.insta{
+    background: rgb(230, 68, 165);
+    color: white;
+}
+.linkdin{
+    background:  rgb(162, 188, 251);
+    color: white;
+}
+.git{
+    background: black;
+    color: white;
+}
+.twitter{
+    background: rgb(87, 87, 87);
+    color: white;
+} */
+
+
+/* //! Task 4: Student Information Section */
+/* main{
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.cards{
+    display: flex;
+    border: 1px solid black;
+    height: 80vh;
+    align-items: center;
+    width: 80vw;
+    justify-content: space-around;
+}
+
+.card1 , .card2 , .card3 {
+    height: 60vh;
+    width: 20vw;
+    border: 1px  solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: lightblue;
+   
+}
+.row{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+     font-size: 30px;
+} */
+
+/* //! Task 5: Center a Login Form */
+/* 
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+
+}
+
+section{
+    justify-content: center;
+    display: flex;
+    width: 80%;
+    height: 80%;
+    align-items: center;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 80%;
+    width: 60%;
+    justify-content: center;
+}
+
+input , button{
+    height: 50px;
+} */
+
+/* //! Task 6: Product Showcase */
+/* main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.products{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+     justify-content: space-evenly;
+    align-items: center;
+   
+}
+
+.product1 , .product2 , .product3 , .product4 {
+    height: 80%;
+    border: 1px solid black;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: lightcoral;
+
+} */
+
+/* //! Task 7: News Headlines */
+/* main{
+    display: flex;
+    justify-content: space-evenly;
+    height: 15vh;
+    align-items: center;
+
+}
+
+div{
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 10px;
+} */
+
+/* //! Task 8: College Departments */
+/* body{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+ main{
+    border: 1px solid;
+    width: 40vw;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+
+} 
+div{
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 10px;
+    width: 150px;
+    height: 40%;
+    display: flex;
+justify-content: center;
+align-items: center;
+}  */
+
+/* //! Task 9: Team Members */
+/* body{
+display: flex;
+justify-content: center;
+align-items: center;
+height:100vh ;
+}
+
+main{
+
+    height: 100vh;
+    width: 100%;
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+    padding: 30px;
+
+}
+
+div{
+    height: 30%;
+    min-width: 500px;
+    border: 1px solid ;
+} */
+
+/* //! Task 10: Movie Collection */
+/* main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding: 50px;
+}
+div{
+    height: 300px;
+    min-width: 300px;
+    border: 1px solid black;
+} */
+
+/* //! Task 11: Header Layout */
+/* nav{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;;
+}
+.nav1{
+ width: 30%;
+}
+.nav2{
+    border-radius: 10px;
+ border: 1px solid;
+ width: 40%;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav3{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+} */
+
+/* //! Task 12: Online Course Section */
+
+/* main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    gap: 50px;
+}
+div{
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+      display: flex;
+} */
+
+/* //!  Task 13: Music Playlist*/
+/* main{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    gap: 50px;
+    flex-direction: column;
+    padding: 50px;
+}
+    div{
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+      display: flex;
+} */
+
+/* //! Task 14: Food Menu */
+/* main{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    gap: 50px;
+    padding: 50px;
+}
+    div{
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    min-width: 300px;
+    border: 1px solid;
+      display: flex;
+    background: rgb(221, 255, 96);
+
+} */
+
+/* //!Task 15: Portfolio Hero Section */
+
+/* //! Task 15: Portfolio Hero Section */
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile{
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
