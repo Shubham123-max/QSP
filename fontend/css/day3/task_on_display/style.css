@@ -127,7 +127,7 @@ main{
 
 
 /* //! Task 4: Student Information Section */
-/* main{
+main{
     height: 100vh;
     align-items: center;
     display: flex;
@@ -160,7 +160,7 @@ main{
     align-items: center;
     gap: 10px;
      font-size: 30px;
-} */
+}
 
 /* //! Task 5: Center a Login Form */
 /* 
@@ -388,9 +388,8 @@ div{
 
 /* //!Task 15: Portfolio Hero Section */
 
-/* //! Task 15: Portfolio Hero Section */
 
-main{
+/* main{
     height: 100vh;
     display: flex;
     justify-content: space-around;
@@ -422,5 +421,139 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+} */
+
+/* //! Task 16: E-Commerce Categories */
+
+/* main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 30px;
 }
 
+div{
+    height: 180px;
+    width: 220px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* //! Task 17: Dashboard Layout */
+/* 
+main{
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.content{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.sidebar div{
+    width: 80%;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ */
+
+ /* //! Task 18: Photo Gallery */
+
+/* main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+div{
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* //! Task 19: Job Portal Cards */
+
+/* main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+div{
+    width: 250px;
+    height: 180px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* //! Task 20: Mini Shopping Homepage */
+
+/* nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.links{
+    display: flex;
+    gap: 30px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+.card{
+    width: 220px;
+    height: 250px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80px;
+    border: 1px solid black;
+} */
