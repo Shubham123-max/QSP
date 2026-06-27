@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background: #000;
+    position: fixed;
+    top: 0px;
+
+}
+main{
+    height: 150vh;
+    width: 100%;
+    background: green;
+    margin-top: 100px;
+}
+section{
+    height: 100px;
+    width: 100%;
+    background: blue;
+}
+article{
+    height: 100px;
+    width: 100%;
+    background: red;
+    position: sticky;
+    top: 100px;
+}
+footer{
+    height: 300px;
+    width: 100%;
+    background: black;
+}

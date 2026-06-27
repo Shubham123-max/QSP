@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+div{
+    height: 300px;
+    width: 800px;
+    border: 1px solid ;
+    background-image: url("https://cdn.britannica.com/48/252748-050-C514EFDB/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.jpg");
+    background-position: center;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
